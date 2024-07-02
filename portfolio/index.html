@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2f8b85e0e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpeg" class="logo">
+            <ul>
+               <li><a herf="#">Home</a></li>
+               <li><a herf="#">About</a></li>
+               <li><a herf="#">Projects</a></li>
+               <li><a herf="#">Certifications</a></li>
+               <li><a herf="#">Contact</a></li>
+            </ul>
+         </nav>  
+         <div class="header-text">
+            <p>Full Stack Mern Devloper</p>
+            <h1>Hi, I'm <span>Mansi</span><br>Shinde From Mumbai</h1>
+         </div>
+    </div>
+</div>
+<!-------------------------about------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                 <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I'm a passionate full-stack developer with expertise in the MERN stack 
+                (MongoDB, Express, React, and Node.js). This means I can handle all aspects of web development, 
+                from designing user-friendly interfaces and crafting clean, maintainable code on the front-end,
+                to building robust APIs and managing data on the back-end. I'm a strong believer in creating beautiful, 
+                functional web applications that deliver a seamless user experience.</p>
+            
+            <div class="tab-titles">
+                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>   
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI?UX</span><br>Designing web/App interfaces</li>
+                    <li><span>Web development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div> 
+            <div class="tab-contents" id="languages">
+                <ul>
+                    <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                    <li><span>Web Development</span><br>React, Node.js</li>
+                    <li><span>Database</span><br>MySql, MongoDB</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+            <ul>
+                    <li><span>2025</span><br>Bharti Vidyapeeth College of Engineering, Navi Mumbai</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-------------------Services-------------------------->
+<div id="services">
+    <div class="container">
+         <h1 class="sub-title">My Projects</h1>
+         <div class="services-list">
+             <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h2>College Navigator Website</h2>
+                  <p>Built a responsive College Navigator web application using HTML and CSS for filtering colleges by state and type.</p>
+                  <a href="#">Learn more</a>
+             </div>
+             <div>
+                  <i class="fa-solid fa-crop"></i>
+                  <h2>Diabetes Prediction</h2>
+                  <p>Diabetes Prediction is a Project using Machine Learning and also fix a proper UI using HTML,CSS and JS</p>
+                  <a href="#">Learn more</a>
+             </div>
+             <div>
+                  <i class="fa-brands fa-app-store"></i>
+                  <h2>Iris Segmenatation</h2>
+                  <p>An Iris Segmenatation is a Project using Deep Learning and also fix a proper UI using HTML,CSS and JS</p>
+                  <a href="#">Learn more</a>
+             </div>
+       </div>
+    </div> 
+</div>
+
+<!-- --------------Portfolio------------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/certify1.png">
+                    <div class="layer">
+                        <h3>JPMorgan Chase & Co.</h3>
+                        <p>Certificate of completion for a JPMorgan Chase & Co. Software Engineering Job Simulation program.
+                         I have completed the program between December 2023 and June 2024. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/certify2.png">
+                    <div class="layer">
+                        <h3>Walmart Global Tech</h3>
+                        <p>Software Engineering Job Simulation in June 2024. The program covered practical tasks in advanced data structures,
+                         software architecture, relational database design, and data munging.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shindemansi2812@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>9763****35</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf"  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button> 
+                </form> 
+            </div>
+        </div>
+    </div>
+    <div class"copyright">
+        <p>Copyright © mansi. <i class="fa-solid fa-heart"></i> Full Stack Mern developer</p> <!--for copyright alt+0169 -->
+    </div>
+</div>
+             
+       
+<script>
+    
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+</body>
+</html>
